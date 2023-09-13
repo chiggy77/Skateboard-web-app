@@ -1,0 +1,91 @@
+
+.cart-item {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    float: left;
+    width: 150px;
+  }
+  
+  .details-container {
+    float: left;
+    width: 350px;
+    padding-left: 10px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #7e33b7;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+  }
+  .actions-container {
+    margin-top: 200px;
+    margin-right:1080px;
+    
+  }
+  
+  .btn {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #286090;
+  }
+  
+  .image-container img {
+    width: 100%;
+  }
+  
+  .image-container .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image-container .actions .btn {
+    margin-left: 10px;
+  }
+  
+  .image-container .actions .quantity {
+    margin-left: 10px;
+  }
+  .Item_price {
+    margin-top: 20px;
+    margin-left: 1200px;
+    justify-content: flex-end;
+    border: 1px solid #ccc;
+  }
+  
+  .total-price {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+  }
+  
+  .total-items {
+    font-size: 28px;
+    color: goldenrod;
+  }
+  .card-text span {
+    color: #000;
+  }
+  .total-price span, .total-items span {
+    color: #000;
+   
+  }
+
+ 

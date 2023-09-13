@@ -1,0 +1,213 @@
+.checkoutparent {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid red; */
+    height: 800px;
+    justify-content: space-between;
+  }
+  
+  .left {
+    /* border: 1px solid black; */
+    width: 60%;
+    height: fit-content;
+    margin-bottom: 150px;
+  }
+  
+  .contactinformation {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid green; */
+  }
+  
+  .headlogo {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .headlogoimg {
+    width: 300px;
+    height: 80px;
+    margin-bottom: 50px;
+  }
+  
+  .upperdiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inupperdiv {
+    display: flex;
+  }
+  
+  input {
+    border: 1px solid lightgrey;
+  }
+  
+  select {
+    border: 1px solid lightgrey;
+  }
+  
+  .emailbox > input {
+    width: 98.5%;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .selectcountry {
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+  }
+  
+  .personname {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .personname > div > input {
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .company > input {
+    width: 98.5%;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .address > input {
+    width: 98.5%;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .apartment > input {
+    width: 98.5%;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .citystatepin {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .state {
+    height: 48px;
+    border-radius: 7px;
+  }
+  
+  .citystatepin > div > input {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  .phonenum {
+    margin-top: 10px;
+  }
+  
+  .phonenum > input {
+    width: 98.5%;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .allbutton {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  
+  .returncart {
+    border: none;
+    background-color: white;
+    font-size: medium;
+  }
+  
+  .shippingbtn {
+    height: 60px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: small;
+  }
+  
+  .uppermarginline {
+    margin-top: 70px;
+  }
+  
+  .refund {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* total detail right side */
+  
+  .right {
+    width: 40%;
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .totaldetail {
+    margin-top: 100px;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+    /* border: 1px solid purple; */
+    width: 80%;
+  }
+  
+  .couponbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .couponinput {
+    width: 75%;
+    height: 43px;
+    border-radius: 5px;
+  }
+  
+  .couponapply {
+    width: 100px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border: none;
+    color: white;
+  }
+  
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shippingdet {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalbill {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+
+
+
+
+

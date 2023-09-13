@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: kredit;
+  src: url("./kredit\ front.ttf");
+}
+
+.container {
+  margin: 2rem;
+  width: 30rem;
+  height: 18rem;
+  border-radius: 1rem;
+  background: url("./Hexagon.svg");
+}
+
+.logo {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.25rem 2rem;
+}
+
+.logo img {
+  width: 5rem;
+  object-fit: cover;
+}
+
+.chip {
+  margin-top: -100px;
+  height: 2rem;
+  padding: 0 2rem;
+}
+
+.chip img {
+  width: 3rem;
+  object-fit: contain;
+}
+
+.cardInfo {
+  display: flex;
+  padding: 0.5rem 2rem;
+  align-items: center;
+  gap: 3rem;
+  color: white;
+}
+
+.cardInfoText {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.Numfont {
+  font-family: kredit;
+}
